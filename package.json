@@ -2,7 +2,8 @@
   "name": "openapi-gen-hono",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "export": "tsx ./src/scripts/export-openapi.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.7",
